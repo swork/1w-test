@@ -2,6 +2,9 @@
 
 [Introduction](README.md)
 
-- [My First Chapter](my-first-chapter.md)
-- [Nested example](nested/README.md)
-    - [Sub-chapter](nested/sub-chapter.md)
+- [Board operation](board_operation.md)
+- [Board construction](board_construction.md)
+- [Strong pull-up](strong_pullup.md)
+- [The box](box.md)
+
+
