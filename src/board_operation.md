@@ -1,7 +1,7 @@
 # Operation
 
 The four rightmost pins on the header carry Vcc, GND, the 1W bus and
-(optionally) a control line for 1W's strong pullup FET, more on this below. The
+(optionally) a control line for 1W's strong pullup FET, more on this later. The
 remaining 36 pins jumper individual devices to the 1Wire bus - each back-row pin
 connects to its nearest column of interconnected through-hole points, and the
 front-row pins all connect to the 1W bus connection pin. If I were building a
