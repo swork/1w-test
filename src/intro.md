@@ -5,7 +5,7 @@ and presenting it to a master through a pin header. I'm documenting it here as
 it will likely get thrown into a drawer and brought out in a few years, the next
 time I do something with 1Wire, when I'm unlikely to remember the details.
 
-![The box as WIP](../images/WIP.jpg)
+![The box as WIP](images/WIP.jpg)
 
 I built the board by hand over a Schmartboard Pi Zero W prototyping board I had
 already, <https://schmartboard.com/> (specifically
