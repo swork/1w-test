@@ -1,6 +1,6 @@
 # Summary
 
-[Introduction](README.md)
+[Introduction](intro.md)
 
 - [Board operation](board_operation.md)
 - [Board construction](board_construction.md)
