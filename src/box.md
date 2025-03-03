@@ -16,7 +16,9 @@ printer.
 
 Here are the [design files](https://a360.co/3QqrmPF), and [the resulting STEP
 model](assets/1w-tester-case.step). It appears I can only share the design for
-reference, not for use, without paying Autodesk for a Fusion subscription. Still
+reference, not for use, without paying Autodesk for a Fusion subscription. 
+To be clear: their license terms allow me to do mostly whatever I want with 
+the design, it's mine, but their tooling won't help me share it in this manner without me paying them. Still
 it's an amazing pile of functionality they make available at no cost for
 non-commercial uses like this, and I'm grateful to have it available.
 
