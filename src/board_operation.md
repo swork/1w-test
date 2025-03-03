@@ -28,7 +28,7 @@ Here's the header diagrammed, looking at the box with the pins closest to you:
 
 The remaining 36 pins are paired, 20-21, 19-22, 18-23 and so on, isolating a
 corresponding column of through-hole points unless jumped (as shown for 18-23 in
-the picture). The columns connected are those with holes closest to the far edge
+the introduction picture). The columns connected are those with holes closest to the far edge
 of the board in the picture, without connections.
 
 The hard-soldered jumper wires serve to distribute alternating VCC and GND
