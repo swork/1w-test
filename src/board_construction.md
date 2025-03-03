@@ -29,8 +29,3 @@ how to make insulated connections reliably with the scrounged tools I have on
 hand, so generally strip the wires first and probably give up this desireable
 lives-forever property. But I have some similar assemblies many years old still
 functioning.
-
-Besides not yet having populated the board with the actual 1W nodes I want to
-test bus-master software against, I haven't yet arranged to install a small
-FET for the strong pullup function required by some 1W nodes during some
-operations. I'll update this para when that's done.
