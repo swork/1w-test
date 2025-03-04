@@ -14,12 +14,19 @@ Adjacent parts are crammed in tight, so I used a conformal coating -ish Liquid E
 
 Here are the devices as populated, by jumper position (left to right with the pins closest to you):
 
-| Position | Device | Family |
-| -------- | ------ | ------ |
-|  20-21   | DS28EA00 |  42h  |
-|  19-22   | TMP1826 | 26h |
-|  18-23   | DS1822Z | 22h |
-|  17-24   | 
-|  16-25   | 
-|  15-26   | 
+| Position   | Device | Family |
+| --------   | ------ | ------ |
+|  1 (20-21) | DS28EA00 |  42h  |
+|  2 (19-22) | TMP1826 | 26h |
+|  3 (18-23) | DS18S20 | 10h |
+|  4 (17-24) | DS1822Z | 22h |
+|  5 (16-25) | MAX31820PAR | 28h |
+|  6 (15-26) | TMP1827 | 27h | (if it still works)
+|  7 to 18   | as yet unused | |
 
+Two devices expose auxilliary pins. (One of the devices with auxilliary pins, the TMP1827, is the single success I had with soldering whiskers to under-chip pads, and I grounded those pins as the datasheet recommends using a single busbar connection rather than try to complete four more connections at 0.5mm pitch by hand. Limit coffee to one cup.) "Front" here means closest to jumpers.
+
+| Position  | Device   | Aux pins, front to back |
+| --------  | ------   | ----------------------- |
+| 1 (20-21) | DS28EA00 | PIOB, PIOA |
+| 2 (19-22) | TMP1826  | IO2/ALERT-cmpl, IO1, IO0, IO3 |
